@@ -12,13 +12,21 @@ def index():
 
 original_questions = {
  #Format is 'question':[options]
- 'Taj Mahal':['Agra','New Delhi','Mumbai','Chennai'],
- 'Great Wall of China':['China','Beijing','Shanghai','Tianjin'],
- 'Petra':['Ma\'an Governorate','Amman','Zarqa','Jerash'],
- 'Machu Picchu':['Cuzco Region','Lima','Piura','Tacna'],
- 'Egypt Pyramids':['Giza','Suez','Luxor','Tanta'],
- 'Colosseum':['Rome','Milan','Bari','Bologna'],
- 'Christ the Redeemer':['Rio de Janeiro','Natal','Olinda','Betim']
+ "Where does normal distribution function peaks?" :['Mean','Median','Mode','Variance'],
+ "What sort of basis we choose for compressing data?":['Orthonormal','Orthogonal','None of the above','Basis is not required'],
+ "Is standardization of RV necessary in Central limit theorem?":["Yes",'No','Depends on context','RV is not required in CLT'],
+ 'The runs scored by a batsman in 5 ODIs are 30,9,12,63,112.The standard deviation is':['43.077837','42.9087','78.98',"63.87"],
+ 'Find the mean of tossing 7 coins?':['3.5','4',"7",'3'],
+ 'In Poisson\'s distribution, what is mean if P(x)=P(y)?':['Lambda','Lambda/2','Lambda/e','None'],
+ 'Variance of a constant is':['0','Infinity','-1','1'],
+ "Leave-One-Out Cross Validation estimate for the test MSE is the average of these n test error estimates":["1/n MSE","2MSE","0","MSE"],
+ "Activation function in Logistic Regression is:":["Non Linear","Linear","Quadratic","Hyperbolic"],
+ "Loss function in Logistic Regression is:":["Binary Cross Entropy","Categorical Cross Entropy","Sum squared loss","Absolute Mean Error"],
+ "Is relu activation :":["Linear for positive and zero domain","Non Linear","Linear","None"],
+ "What's the reason to avoid Step function as activation function?":["Discontinuous","Continuous","Non Differentiable","None"],
+ "Where does general gradient descent fail?":["Global optimal","Local Optimal","Optimal","None"],
+ "What are eigen functions fo Laplace Beltrami Operator?":["Morse","Hessian","Linear","Dirichelet's functions"],
+ "When is Hessian matrix negative definite?":["Maxima","Minima","Saddle point","Inflection point"]
 }
 
 questions = copy.deepcopy(original_questions)
