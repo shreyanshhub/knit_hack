@@ -1,5 +1,5 @@
 from flask import Blueprint,render_template,request
-from . import db
+import db
 import random, copy
 from models import User,Scores
 from flask_login import login_user,current_user
