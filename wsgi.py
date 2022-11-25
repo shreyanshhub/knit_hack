@@ -1,2 +1,2 @@
-from catalog import getApp
+from . import getApp
 app = getApp()
