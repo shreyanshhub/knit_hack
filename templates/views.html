@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {% for score in scores %}
+  <p>
+    Team : {{score.team_name}}
+    <br />
+    Score : {{score.score}}
+    <br />
+  </p>
+  {% endfor %}
+{% endblock %}
