@@ -35,4 +35,5 @@ def create_app():
     return app
 
 def getApp():
+    app = create_app()
     return app
